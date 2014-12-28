@@ -3,7 +3,11 @@
 
 target 'ShowTracker' do
 
+inhibit_all_warnings!
+
 pod 'AFNetworking', '2.2.1'
+pod 'SAMCategories', '0.5.2'
+pod 'Nimbus/AttributedLabel', '1.2.0'
 
 end
 
